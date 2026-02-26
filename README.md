@@ -1,10 +1,86 @@
-# Cloud Threat Modeling Repository
+# Cloud Threat Models Toolkit
 
-Welcome to the **Cloud Threat Modeling Repository**, a centralized collection of threat models, risk assessments, and mitigation strategies for major cloud platforms including **AWS**, **Azure**, and **Google Cloud Platform (GCP)**.
+## Overview
+
+Cloud-native systems introduce unique security risks that are often overlooked by startups and small teams due to limited security expertise, time, or resources. Traditional threat modeling approaches can feel too complex or enterprise-focused for early-stage environments.
+
+The **Cloud Threat Models Toolkit** is a lightweight collection of threat modeling templates and guidance designed specifically for cloud-native workloads, with a strong focus on AWS environments. It helps teams identify, understand, and mitigate security risks early—before they become incidents.
 
 ---
 
-## 🚀 Project Overview
+## Purpose
+
+This toolkit was created to help:
+
+- Startups and SMEs adopt practical threat modeling for their Cloud environments  
+- Cloud engineers reason about security risks by design  
+- Security practitioners structure threat discussions in real-world cloud scenarios  
+
+The goal is not to replace formal threat modeling frameworks, but to make threat modeling approachable, actionable, and usable for teams operating in fast-paced cloud environments.
+
+---
+
+## Who This Tool Is For:
+
+- Startup founders and technical co-founders  
+- Cloud and DevOps engineers  
+- Security engineers working with AWS  
+- Early-stage teams building cloud-native products  
+- Educators and mentors teaching cloud security concepts  
+
+---
+
+## What is Included
+
+This toolkit contains:
+
+- Cloud-focused threat modeling templates  
+- Common threat scenarios for AWS-based architectures  
+- Structured prompts to identify risks across:
+  - Identity & access management  
+  - Network exposure  
+  - Data security  
+  - Monitoring and detection  
+  - Misconfiguration risks  
+- Guidance on mapping threats to mitigations using native cloud controls  
+
+The content is intentionally tool-agnostic, to allow teams adapt it to their preferred workflows.
+
+---
+
+## How to Use This Toolkit
+
+### 1. Review your cloud architecture  
+Specify your Cloud Service Provider - AWS, Azure, GCP, etc
+
+### 1. Review your cloud architecture  
+Identify core components (compute, storage, identity, networking).
+
+### 2. Apply the threat modeling templates  
+Use the provided structure to identify potential threats.
+
+### 3. Discuss risks as a team  
+Prioritise threats based on likelihood and impact.
+
+### 4. Map threats to controls  
+Identify mitigations using native cloud services or security best practices.
+
+### 5. Iterate  
+Revisit the model as the system evolves.
+
+---
+
+## When to Use This Toolkit
+
+This toolkit can be used during:
+
+- Architecture design  
+- Pre-production reviews  
+- Security workshops  
+
+---
+
+## What You Should Know
 
 This repository provides:
 
@@ -18,10 +94,7 @@ This repository provides:
 
 ---
 
-
----
-
-## 📚 How to Use This Repository
+## How to Use This Repository
 
 1. Navigate to the folder for your cloud provider of interest (`aws/`, `azure/`, or `gcp/`).
 2. Start with the `README.md` in that folder for a summary of scope and objectives.
@@ -34,7 +107,7 @@ This repository provides:
 
 ---
 
-## 🤝 Contributions
+## Contributions
 
 Contributions are welcome! Feel free to:
 
@@ -46,7 +119,6 @@ Contributions are welcome! Feel free to:
 ---
 
 ## 📖 References
-
 - Microsoft STRIDE Threat Model: https://docs.microsoft.com/en-us/azure/security/develop/threat-modeling-tool
 - OWASP Threat Modeling: https://owasp.org/www-community/Threat_Modeling_Process
 - AWS Security Best Practices: https://aws.amazon.com/architecture/security-identity-compliance
@@ -56,10 +128,8 @@ Contributions are welcome! Feel free to:
 ---
 
 ## ⚠️ Disclaimer
-
 This repository is intended for educational and planning purposes. It should be adapted to reflect your organization's specific architecture, security posture, and compliance requirements.
 
 ---
 
 © 2025 Cloud Threat Modeling Initiative
-
