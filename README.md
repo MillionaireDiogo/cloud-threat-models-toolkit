@@ -50,22 +50,22 @@ The content is intentionally tool-agnostic, to allow teams adapt it to their pre
 
 ## How to Use This Toolkit
 
-### 1. Review your cloud architecture  
-Specify your Cloud Service Provider - AWS, Azure, GCP, etc
+### 1. Define Your Cloud Environment  
+Specify your Cloud Service Provider (e.g., Amazon Web Services, Microsoft Azure, Google Cloud Platform).
 
-### 1. Review your cloud architecture  
-Identify core components (compute, storage, identity, networking).
+### 2. Map Your Core Architecture Components
+Identify key services and building blocks (compute, storage, identity, networking).
 
-### 2. Apply the threat modeling templates  
+### 3. Apply the threat modeling templates  
 Use the provided structure to identify potential threats.
 
-### 3. Discuss risks as a team  
+### 4. Discuss risks as a team  
 Prioritise threats based on likelihood and impact.
 
-### 4. Map threats to controls  
+### 5. Map threats to controls  
 Identify mitigations using native cloud services or security best practices.
 
-### 5. Iterate  
+### 6. Iterate  
 Revisit the model as the system evolves.
 
 ---
@@ -133,3 +133,4 @@ This repository is intended for educational and planning purposes. It should be 
 ---
 
 © 2025 Cloud Threat Modeling Initiative
+
